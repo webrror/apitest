@@ -15,7 +15,7 @@ class MainPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("All Products"),
         backgroundColor: Colors.black,
-        elevation: 0,
+        elevation: 2,
       ),
       body: Obx(() {
         if (productController.isLoading.value) {
